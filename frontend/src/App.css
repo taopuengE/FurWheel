@@ -1,0 +1,55 @@
+/* App.css */
+body {
+  background-color: #000; /* พื้นหลังสีดำ */
+  color: #fff; /* ข้อความสีขาว */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #00ffcc; /* สีหัวข้อเป็นสีฟ้าเขียว */
+}
+
+button {
+  background-color: #00ffcc; /* ปุ่มสีฟ้าเขียว */
+  color: #000; /* ข้อความปุ่มสีดำ */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00cc99; /* สีปุ่มเมื่อ hover */
+}
+
+input, select {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #00ffcc; /* กรอบสีฟ้าเขียว */
+  border-radius: 5px;
+  background-color: #111; /* พื้นหลัง input สีดำเข้ม */
+  color: #fff; /* ข้อความสีขาว */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #222; /* พื้นหลังรายการรถสีดำเข้ม */
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 255, 204, 0.1); /* เงาสีฟ้าเขียว */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

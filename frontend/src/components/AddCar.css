@@ -1,0 +1,123 @@
+/* AddCar.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #000, #333);
+  color: #fff;
+}
+
+.add-car-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  color: #fff;
+}
+
+.add-car-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #00ffcc; /* สีฟ้า */
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.add-car-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #00ffcc; /* สีฟ้า */
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.add-car-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add-car-container .member-info {
+  color: #6c5ce7; /* สีม่วงพาสเทล */
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.add-car-container .member-info strong {
+  color: #5a4fcf; /* สีม่วงเข้มขึ้น */
+}
+
+.add-car-container select,
+.add-car-container input,
+.add-car-container textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.add-car-container select:focus,
+.add-car-container input:focus {
+  border-color: #00ffcc; /* สีฟ้า */
+  box-shadow: 0 0 8px rgba(0, 255, 204, 0.2);
+  background-color: #444;
+  outline: none;
+}
+
+.add-car-container select:disabled {
+  background-color: #444;
+  color: #888;
+}
+
+.add-car-container button {
+  background-color: #00ffcc;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+}
+
+.add-car-container button:hover {
+  background-color: #00cc99;
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+
+.add-car-container button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 255, 204, 0.3);
+}
+
+.add-car-container button:disabled {
+  background-color: #00cc99; /* สีฟ้าอ่อนเมื่อปุ่มถูก disabled */
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* เพิ่มสไตล์สำหรับข้อความแสดงข้อผิดพลาด (ถ้ามี) */
+.error-message {
+  color: #ff7675; /* สีแดงพาสเทล */
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* เพิ่มสไตล์สำหรับการแสดงผลเมื่อฟอร์มสำเร็จ */
+.success-message {
+  color: #00b894; /* สีเขียวพาสเทล */
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}

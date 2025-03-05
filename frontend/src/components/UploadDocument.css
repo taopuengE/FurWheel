@@ -1,0 +1,66 @@
+.upload-documents-container {
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    color: #fff;
+  }
+  
+  .upload-documents-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #00ffcc; /* สีฟ้า */
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
+  
+  .upload-documents-container .error {
+    color: #ff4d4d;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .upload-documents-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .upload-documents-container .file-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .upload-documents-container .file-input label {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .upload-documents-container .file-input input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .upload-documents-container button {
+    background-color: #00ffcc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .upload-documents-container button:hover {
+    background-color: #00cc99;
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+  }
